@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dialog>
+  <node char_id="0">
+    <text>Тень:
+    Проснись. Проснись.....      
+    </text>
+    <endnode>true</endnode>
+  </node>
+<node char_id="0">
+    <text>Тень:
+    Нуже вставай      
+    </text><endnode>true</endnode>
+</node>
+<node char_id="0">
+    <text>Тень:
+    Я жду....     
+    </text><endnode>true</endnode>
+</node>
+<node char_id="1">
+    <text>Вы:
+    Что?   
+    </text><endnode>true</endnode>
+</node>
+  <node char_id="1">
+    <text>
+      Вы:
+      Опять кошмар.
+    </text>
+
+    <answers>
+      <answer tonode="5">
+        <ans_text>Пойти умыться </ans_text>
+
+      </answer>
+      <answer tonode="6">
+        <ans_text>Посмотреть в окно </ans_text>
+        <end>true</end>
+        <tolevel>Okno</tolevel>
+      </answer>
+    
+    </answers>
+  </node>
+
+<node char_id="1">
+    <text>Вы:
+    Ух холодная   
+    </text><endnode>true</endnode>
+</node>
+<node char_id="1">
+    <text>Вы:
+    Погода сегодня не очень  
+    </text><endnode>true</endnode>
+</node>
+<node char_id="1">
+    <text>Вы:
+    Я не помню как я уснул
+    </text><endnode>true</endnode>
+</node>
+</dialog>

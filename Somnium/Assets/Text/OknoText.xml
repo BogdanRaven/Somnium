@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dialog>
+  
+  <node char_id="0">
+    <text>
+     Наверное там сейчас очень мокро
+    </text>
+    <endnode>true</endnode>
+  </node>
+  
+  <node char_id="0">
+    <text>
+      Думаю нужно уже начать собираться а не пялиться на этот гниющий город
+    </text>
+    <endnode>true</endnode>
+  </node>
+  <node char_id="0">
+    <text>
+      Блин я говорю с самим собой....
+    </text>
+    <endnode>true</endnode>
+  </node>
+  <node char_id="0">
+    <text>
+      *звуки дождя*
+      ........
+    </text>
+
+    <answers>    
+      <answer tonode="2">
+        <ans_text>Отойти от окна </ans_text>
+        <end>true</end>
+        <tolevel>Chapter1</tolevel>
+      </answer>
+    </answers>
+  </node>
+
+  
+</dialog>
